@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+}
+ol{
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
+#list{
+    font-size: 20px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid ol{
+    padding-left:33px;
+    font-size: 20px;
+}
+#grid #article{
+    padding-left: 25px;
+}
+@media(max-width:800px){
+    #grid{
+    display: block;                         /* 800px 이하일때display 모드를 grid 에서 block 으로 바꾸겠다*/
+    }
+    ol{
+    border-right: none;                     /*800px 이하일때 세로선을 없애도록 하겠다.*/
+    }
+    h1{
+    border-bottom: none;
+    }
+}

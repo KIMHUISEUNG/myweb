@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+    <script>      
+        function factorial() {
+            n = document.getElementById("data").value;
+            var result = 1;
+            for(var i=2; i<=n; i++) result *= i;
+            console.log(result);
+
+            document.getElementById('demo1').innerHTML = "팩토리얼 = " + result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Find Factorial</h1>
+    <form name="myForm">
+        값을 입력해주세요 [<input id="data">]
+        <button type="button" onclick="factorial()">계산</button>    
+    </form>
+    <p id="demo1"></p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    overflow:hidden;
+}
+a{
+    text-decoration: none;
+}
+div.left {
+    float: left;
+    width: 740px; height: 428px;
+    background-color: aliceblue;
+}
+div.right {
+    float: right;
+    width: 332px; height: 428px;
+    background-color: rgb(147, 229, 209);
+}
+div.footer {
+    float: bottom;
+    width: 1080px; height: 80px;
+    background-color: cornflowerblue;
+}
+
+ul.gnb{
+    float: left;
+    padding: 8px 0px;
+    background-color: rgb(159, 147, 229);
+}
+ul.gnb > li{
+    list-style-type: none;
+    float: left;
+    padding-left: 16px;
+}
+ul.gnb > li:first-child{
+    padding-left: 0px;
+}
+ul.rank{
+    float: right;
+    padding: 8px 0px;
+    background-color: azure;
+}
+ul.rank > li {list-style-type: none;}
+.poto{ display: table; margin-left: auto; margin-right: auto;}
+.linktext{ 
+    display: table; margin-left: auto; margin-right: auto; padding-top: center;
+    font-size: 500%;}   /* 홈탭 링크버튼 */
