@@ -6,10 +6,26 @@
   </head>
   <body>
     <h1>javascript</h1>
+    <input type="button" value="night" onclick="
+      var target = document.querySelector('body');
+      if(this.value === 'night'){
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'day';
+      } else{
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = 'night';
+      }
+    "><br><br>
     <script>
       document.write('hellow world');
     </script>
     <input type="button" value="hi" onclick="alert('hi')">
     <input type="text" onchange="alert('changed')">
+    <h2>1&gt;=2</h2>
+    <script>
+      document.write(1<=2);
+    </script>
   </body>
 </html>
